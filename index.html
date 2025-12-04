@@ -38,14 +38,14 @@
         .search-container {
             position: relative;
             /* max-width: 600px; */
-            width: 40%;
+            width: 400px;
 
         }
 
         .search-container i {
             position: absolute;
-            left: 10px;
-            top: 50%;
+            right: 100%;
+            top: 40%;
             transform: translateY(-50%);
             color: #6c757d;
         }
@@ -215,8 +215,14 @@
 
         @media (max-width: 768px) {
             .search-container {
-                max-width: 100%;
-                margin-top: 10px;
+                width: 250px;
+            }
+
+            .search-container i {
+
+                left: 10px;
+                top: 0%;
+
             }
 
             .code-header {
@@ -235,16 +241,16 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <i class="bi bi-code-slash me-2"></i>Code Snippets
+            <div class="container-fluid d-flex ">
+                <a class="navbar-brand d-none d-md-flex" href="#">
+                    <i class="bi bi-code-slash me-2"></i>
+                    <span class="d-none d-md-flex"> Code Snippets</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="search-container ms-auto">
-                        <!-- <i class="bi bi-search me-4"></i> -->
+                </button> -->
+                <div class="">
+                    <div class="search-container d-flex ">
                         <input type="text" class="form-control search-input ps-3" id="searchInput"
                             placeholder="Search codes or commands...">
                     </div>

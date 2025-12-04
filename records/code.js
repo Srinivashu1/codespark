@@ -22,27 +22,27 @@ const records = [
         git push`,
         category: "Git"
     },
-    {
-        id: 3,
-        code: "Create React App",
-        description: `
-        Create a new React application`,
-        command: `
-        npx create-react-app my-app
-        cd my-app
-        npm start`,
-        category: "React"
-    },
-    {
-        id: 4,
-        code: "Install Dependencies",
-        description: 
-        `Install project dependencies`,
-        command: `
-        npm install
-        # or with yarn
-        yarn install`,
-        category: "Node.js"
-    }
+    // {
+    //     id: 3,
+    //     code: "Create React App",
+    //     description: `
+    //     Create a new React application`,
+    //     command: `
+    //     npx create-react-app my-app
+    //     cd my-app
+    //     npm start`,
+    //     category: "React"
+    // },
+    // {
+    //     id: 4,
+    //     code: "Install Dependencies",
+    //     description: 
+    //     `Install project dependencies`,
+    //     command: `
+    //     npm install
+    //     # or with yarn
+    //     yarn install`,
+    //     category: "Node.js"
+    // }
 ];
 
