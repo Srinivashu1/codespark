@@ -2,7 +2,7 @@
 // FIXED RECORDS ARRAY
 const Rec2 = [
     {
-        id: 10,
+        id: 101,
         code: "Add Github",
         description: "Initialize and push to GitHub",
         command: `git init
@@ -14,13 +14,24 @@ git push -u origin main`,
         category: "Git"
     },
     {
-        id: 101,
+        id: 100,
         code: "Update Github",
         description: "Commit and push changes",
         command: `git add .
 git commit -m "Update: Your commit message here"
 git push`,
         category: "Git"
+    },
+    {
+        id: 102,
+        category: "Git",
+        code: "Change Github Repo",
+        description: "Change the GitHub repository ",
+        command: `
+git remote remove origin
+git remote add origin https://github.com/username/repository.git
+git push --set-upstream origin main`,
+
     }
 ];
 
